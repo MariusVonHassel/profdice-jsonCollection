@@ -1,0 +1,22 @@
+{
+  "_id": "particleCaster",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"4",
+  "range":"12",
+  "weaponMode":"pistol",
+  "weaponModeCount":"1",
+  "S":"6",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "keywords":"triarchPraetorians",
+    "linkWith":"voidblade"
+    }
+}

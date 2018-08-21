@@ -1,0 +1,18 @@
+{
+  "_id": "wraithForm",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "wraithFormDescription",
+  "descriptionShort": "wraithFormDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self","movement","fallBack"],
+    "invulnerableSave":["3"],
+    "movementAbility":["moveThroughTerrainandModels"],
+    "fallBackAbility":["shootandCharge"]
+  }
+}

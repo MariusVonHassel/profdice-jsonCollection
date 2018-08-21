@@ -1,0 +1,16 @@
+{
+  "_id": "teslaWeaponAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "teslaWeaponAbilityDescription",
+  "descriptionShort": "teslaWeaponAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "additionalAttackHitProbability": ["6"],
+    "additionalAttackModifier":["2"]
+  }
+}

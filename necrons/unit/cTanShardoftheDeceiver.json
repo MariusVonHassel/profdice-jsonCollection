@@ -1,0 +1,38 @@
+{
+  "_id": "cTanShardoftheDeceiver",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "2",
+    "BS": "2",
+    "S": "7",
+    "T": "7",
+    "W": "8",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "225",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["starGodFists"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","cTanShards","character","monster","fly","cTanShardoftheDeceiver"],
+  "abilities": ["necrodermis","dread","grandIllusion","powersoftheCtan","realityUnravels","enslavedStarGod"]
+}

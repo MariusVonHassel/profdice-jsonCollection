@@ -1,0 +1,16 @@
+{
+  "_id": "aPurposeUnshakeable",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "aPurposeUnshakeableDescription",
+  "descriptionShort": "aPurposeUnshakeableDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["self","leadership"],
+    "moraleTest":["autoSuccess"]
+  }
+}

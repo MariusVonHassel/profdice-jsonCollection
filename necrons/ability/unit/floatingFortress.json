@@ -1,0 +1,17 @@
+{
+  "_id": "floatingFortress",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "floatingFortressDescription",
+  "descriptionShort": "floatingFortressDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement","offensive"],
+    "weaponMode":["heavy"],
+    "heavyWeaponModifier": ["no"]
+  }
+}

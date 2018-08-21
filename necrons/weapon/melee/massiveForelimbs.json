@@ -1,0 +1,17 @@
+{
+  "_id": "massiveForelimbs",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-1",
+  "D":"D3",
+  "weaponAbility":[]
+}

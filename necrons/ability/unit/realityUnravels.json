@@ -1,0 +1,18 @@
+{
+  "_id": "realityUnravels",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "realityUnravelsDescription",
+  "descriptionShort": "realityUnravelsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["4"],
+    "explosionRange": ["3"],
+    "mortalWoundDamage": ["D3"]
+  }
+}

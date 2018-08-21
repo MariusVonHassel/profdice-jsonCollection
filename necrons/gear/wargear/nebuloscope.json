@@ -1,0 +1,17 @@
+{
+  "_id": "nebuloscope",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "nebuloscopeDescription",
+  "descriptionShort": "nebuloscopeDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"2",
+  "abilityFactors": {
+      "abilityType": ["offensive","cover"],
+      "coverBonus": ["no"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "shadowloom",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "shadowloomDescription",
+  "descriptionShort": "shadowloomDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"5",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "invulnerableSave": ["5"]
+  }
+}

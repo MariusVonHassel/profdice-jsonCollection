@@ -1,0 +1,17 @@
+{
+  "_id": "scytheoftheNightbringerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "scytheoftheNightbringerAbilityDescription",
+  "descriptionShort": "scytheoftheNightbringerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "keywords":["vehicle"],
+    "S": ["7"],
+    "toWoundProbabilityOther":["2"]
+  }
+}

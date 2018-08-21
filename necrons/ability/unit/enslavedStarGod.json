@@ -1,0 +1,16 @@
+{
+  "_id": "enslavedStarGod",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "enslavedStarGodDescription",
+  "descriptionShort": "enslavedStarGodDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["warlord","self"],
+    "warlordTraitPossible":["no"]
+  }
+}

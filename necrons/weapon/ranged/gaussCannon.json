@@ -1,0 +1,18 @@
+{
+  "_id": "gaussCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"20",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"3",
+  "S":"6",
+  "AP":"-3",
+  "D":"D3",
+  "weaponAbility":[]
+}

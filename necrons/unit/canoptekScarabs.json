@@ -1,0 +1,38 @@
+{
+  "_id": "canoptekScarabs",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "4",
+    "BS": "0",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "6"
+  },
+  "points": "13",
+  "count": {
+    "default": "3",
+    "max": "9"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["feederMandibles"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","canoptek","dynasty","swarm","fly","canoptekScarabs"],
+  "abilities": []
+}

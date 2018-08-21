@@ -1,0 +1,38 @@
+{
+  "_id": "destroyerLord",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "6",
+    "W": "6",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "110",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["staffofLight_ranged"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["staffofLight_melee"],
+      "replacement": ["hyperphaseSword","voidblade","warscythe"]
+    }
+  },
+  "wargear": ["phylactery","resurrectionOrb"],
+  "keywords": ["necrons","dynasty","character","infantry","fly","destroyerLord"],
+  "abilities": ["livingMetal","hardwiredHatred","unitedinHatred","phaseShifter"]
+}

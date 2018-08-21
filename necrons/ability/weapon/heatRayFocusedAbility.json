@@ -1,0 +1,17 @@
+{
+  "_id": "heatRayFocusedAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "heatRayFocusedAbilityDescription",
+  "descriptionShort": "heatRayFocusedAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "activationRange":["half"],
+    "noofDice": ["2"],
+    "discardDice":["lowest"]
+  }
+}

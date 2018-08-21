@@ -1,0 +1,19 @@
+{
+  "_id": "phylactery",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "phylacteryDescription",
+  "descriptionShort": "phylacteryDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"10",
+  "abilityFactors": {
+      "abilityType": ["restore","self"],
+      "abilityNeeded":["livingMetal"],
+      "abilityPhase":["playerTurnBeginning"],
+      "woundsRestored": ["D3"]
+  }
+}

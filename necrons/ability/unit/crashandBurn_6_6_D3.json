@@ -1,0 +1,18 @@
+{
+  "_id": "crashandBurn_6_6_D3",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "crashandBurn_6_6_D3Description",
+  "descriptionShort": "crashandBurn_6_6_D3DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["6"],
+    "mortalWoundDamage": ["D3"]
+  }
+}

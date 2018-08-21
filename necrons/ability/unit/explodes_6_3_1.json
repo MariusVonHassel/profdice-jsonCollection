@@ -1,0 +1,18 @@
+{
+  "_id": "explodes_6_3_1",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "explodes_6_3_1Description",
+  "descriptionShort": "explodes_6_3_1DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["3"],
+    "mortalWoundDamage": ["1"]
+  }
+}

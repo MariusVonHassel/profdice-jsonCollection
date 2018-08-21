@@ -1,0 +1,16 @@
+{
+  "_id": "doomsdayArkhighPowerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "doomsdayArkhighPowerAbilityDescription",
+  "descriptionShort": "doomsdayArkhighPowerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement"],
+    "weaponModeprerequisite": ["stationary"]
+  }
+}

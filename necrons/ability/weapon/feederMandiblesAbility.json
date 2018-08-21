@@ -1,0 +1,15 @@
+{
+  "_id": "feederMandiblesAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "feederMandiblesAbilityDescription",
+  "descriptionShort": "feederMandiblesAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "minToWoundProbability":["5"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "gazeofDeath",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"12",
+  "weaponMode":"assault",
+  "weaponModeCount":"D6",
+  "S":"special",
+  "AP":"-4",
+  "D":"D3",
+  "weaponAbility":["gazeofDeathAbility"]
+}

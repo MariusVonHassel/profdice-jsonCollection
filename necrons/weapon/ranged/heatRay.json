@@ -1,0 +1,33 @@
+{
+  "_id": "heatRay",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"54",
+  "weaponProfiles":{
+    "weaponProfile1":{
+      "weaponProfileName":"dispersed",
+      "range":"8",
+      "weaponMode":"heavy",
+      "weaponModeCount":"2D6",
+      "S":"5",
+      "AP":"-1",
+      "D":"1",
+      "weaponAbility":["autoHitAbility"]
+    },
+    "weaponProfile2":{
+      "weaponProfileName":"focused",
+      "range":"24",
+      "weaponMode":"heavy",
+      "weaponModeCount":"2",
+      "S":"8",
+      "AP":"-4",
+      "D":"D6",
+      "weaponAbility":["heatRayFocusedAbility"]
+  }
+
+}

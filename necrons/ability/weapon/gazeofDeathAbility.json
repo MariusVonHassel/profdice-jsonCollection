@@ -1,0 +1,17 @@
+{
+  "_id": "gazeofDeathAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "gazeofDeathAbilityDescription",
+  "descriptionShort": "gazeofDeathAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "keywords":["vehicle"],
+    "toWoundProbabilityVehicle": ["6"],
+    "toWoundProbabilityOther":["2"]
+  }
+}

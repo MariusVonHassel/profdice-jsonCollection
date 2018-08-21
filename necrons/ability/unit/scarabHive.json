@@ -1,0 +1,22 @@
+{
+  "_id": "scarabHive",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "scarabHiveDescription",
+  "descriptionShort": "scarabHiveDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","aura"],
+    "abilityPhase":["playerTurnBeginning"],
+    "keywords":["dynasty","canoptekScarabs"],
+    "woundsRestoredProbability": ["2"],
+    "woundsRestored":["lostModel"],
+    "mortalWoundProbability":["6"],
+    "mortalWoundDamage":["1"],
+    "auraRange":["6"]
+  }
+}

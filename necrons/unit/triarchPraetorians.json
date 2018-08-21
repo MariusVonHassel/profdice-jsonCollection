@@ -1,0 +1,37 @@
+{
+  "_id": "triarchPraetorians",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "5",
+    "W": "2",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "22",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["rodofCovenant_ranged"],
+      "replacement": ["particleCaster"]
+    },
+    "melee": {
+      "default": ["rodofCovenant_melee"],
+      "replacement": ["voidblade"]
+    }
+  },
+  "keywords": ["necrons","infantry","fly","triarchPraetorians"],
+  "abilities": ["reanimationProtocols","aPurposeUnshakeable"]
+}

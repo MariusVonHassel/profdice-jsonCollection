@@ -1,0 +1,15 @@
+{
+  "_id": "voidBladeAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "voidBladeAbilityDescription",
+  "descriptionShort": "voidBladeAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "additionalAttackModifier":["1"]
+  }
+}

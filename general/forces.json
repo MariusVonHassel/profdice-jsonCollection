@@ -1,0 +1,5 @@
+//forces
+{
+  "_id": "forces",
+  "forces": ["necrons", "spacemarines"]
+}

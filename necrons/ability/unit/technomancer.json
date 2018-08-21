@@ -1,0 +1,19 @@
+{
+  "_id": "technomancer",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "technomancerDescription",
+  "descriptionShort": "technomancerDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","aura"],
+    "keywords":["dynasty"],
+    "abilityNeeded":["reanimationProtocols"],
+    "reanimationProtocolsModifier":["1"],
+    "auraRange":["3"]
+  }
+}

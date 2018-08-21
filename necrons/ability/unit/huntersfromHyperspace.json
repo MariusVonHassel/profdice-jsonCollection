@@ -1,0 +1,16 @@
+{
+  "_id": "huntersfromHyperspace",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "huntersfromHyperspaceDescription",
+  "descriptionShort": "huntersfromHyperspaceDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["9"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "canoptekWraiths",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "3",
+    "BS": "3",
+    "S": "6",
+    "T": "5",
+    "W": "3",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "55",
+  "count": {
+    "default": "3",
+    "max": "6"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": ["particleCaster","transdimensionalBeamer"]
+    },
+    "melee": {
+      "default": ["viciousClaws"],
+      "replacement": ["whipCoils"]
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","canoptek","dynasty","beasts","canoptekWraiths"],
+  "abilities": ["wraithForm"]
+}

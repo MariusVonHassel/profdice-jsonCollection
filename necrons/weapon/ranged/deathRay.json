@@ -1,0 +1,18 @@
+{
+  "_id": "deathRay",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"D3",
+  "S":"10",
+  "AP":"-4",
+  "D":"D6",
+  "weaponAbility":[]
+}

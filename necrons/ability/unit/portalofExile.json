@@ -1,0 +1,17 @@
+{
+  "_id": "portalofExile",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "portalofExileDescription",
+  "descriptionShort": "portalofExileDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["reaction","offensive"],
+    "portalofExileProbability": ["damagetable"],
+    "mortalWoundDamage": ["D6"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "reanimationProtocols",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "reanimationProtocolsDescription",
+  "descriptionShort": "reanimationProtocolsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"82"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","self"],
+    "reanimationProtocolsProbability":["5"]
+  }
+}

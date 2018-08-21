@@ -1,0 +1,17 @@
+{
+  "_id": "scytheoftheNightbringer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"special",
+  "AP":"-4",
+  "D":"D6",
+  "weaponAbility":["scytheoftheNightbringerAbility"],
+}

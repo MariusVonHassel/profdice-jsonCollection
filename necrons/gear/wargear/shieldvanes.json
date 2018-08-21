@@ -1,0 +1,17 @@
+{
+  "_id": "shieldvanes",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "shieldvanesDescription",
+  "descriptionShort": "shieldvanesDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"3",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "Sv": ["3"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "targetingRelay",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "targetingRelayDescription",
+  "descriptionShort": "targetingRelayDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","assist"],
+    "weaponType":["ranged"],
+    "hitrerollModifier":["1"]
+  }
+}

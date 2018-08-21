@@ -1,0 +1,19 @@
+{
+  "_id": "gloomPrism",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "gloomPrismDescription",
+  "descriptionShort": "gloomPrismDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "points":"5",
+  "abilityFactors": {
+      "abilityType": ["reaction","psychicPower"],
+      "keywords":["psyker"],
+      "abilityPhase":["psychicPhase"],
+      "denyPsychicPowerCount":["1"]
+  }
+}

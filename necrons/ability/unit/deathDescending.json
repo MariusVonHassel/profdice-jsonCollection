@@ -1,0 +1,16 @@
+{
+  "_id": "deathDescending",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "deathDescendingDescription",
+  "descriptionShort": "deathDescendingDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["12"]
+  }
+}

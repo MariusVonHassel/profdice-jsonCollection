@@ -1,0 +1,17 @@
+{
+  "_id": "viciousClaws",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-2",
+  "D":"2",
+  "weaponAbility":[]
+}

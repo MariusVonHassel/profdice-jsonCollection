@@ -1,0 +1,17 @@
+{
+  "_id": "dread",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "dreadDescription",
+  "descriptionShort": "dreadDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","leadership","aura"],
+    "leadershipModifier":["-1"],
+    "auraRange":["12"]
+  }
+}

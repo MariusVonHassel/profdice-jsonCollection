@@ -1,0 +1,39 @@
+{
+  "_id": "annihilationBarge",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "6",
+    "BS": "3",
+    "S": "5",
+    "T": "6",
+    "W": "8",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "133",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussCannon","twinTeslaDestructor"],
+      "replacement": ["teslaCannon"],
+      "replacementFor":["gaussCannon"]
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","vehicle","fly","annihilationBarge"],
+  "abilities": ["livingMetal","quantumShielding","explodes_6_3_1"]
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "unitedinHatred",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "unitedinHatredDescription",
+  "descriptionShort": "unitedinHatredDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","aura"],
+    "keywords":["destroyerLord","destroyers","heavyDestroyers"],
+    "weaponType":["ranged"],
+    "woundreollModifier":["1"],
+    "auraRange":["6"]
+  }
+}

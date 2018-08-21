@@ -1,0 +1,17 @@
+{
+  "_id": "hardtoHit",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hardtoHitDescription",
+  "descriptionShort": "hardtoHitDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","self"],
+    "weaponType":["ranged"],
+    "toHitModifier": ["-1"]
+  }
+}

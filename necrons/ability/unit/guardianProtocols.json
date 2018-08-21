@@ -1,0 +1,18 @@
+{
+  "_id": "guardianProtocols",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "guardianProtocolsDescription",
+  "descriptionShort": "guardianProtocolsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","defensive","aura"],
+    "keywords": ["character"],
+    "woundInterceptionProbability":["2"],
+    "auraRange": ["3"]
+  }
+}

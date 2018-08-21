@@ -1,0 +1,16 @@
+{
+  "_id": "fleshHunger",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "fleshHungerDescription",
+  "descriptionShort": "fleshHungerDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","leadership"],
+    "leadershipModifier":["-1"]
+  }
+}

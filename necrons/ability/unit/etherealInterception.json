@@ -1,0 +1,18 @@
+{
+  "_id": "etherealInterception",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "etherealInterceptionDescription",
+  "descriptionShort": "etherealInterceptionDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","reaction","self","offensive"],
+    "weaponType":["ranged"],
+    "deploymentDistancetoEnemy": ["9"],
+    "maxDeploymentDistancetoEnemy": ["12"]
+  }
+}

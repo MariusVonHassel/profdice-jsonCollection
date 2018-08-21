@@ -1,0 +1,17 @@
+{
+  "_id": "evasionEngrams",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "evasionEngramsDescription",
+  "descriptionShort": "evasionEngramsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","self"],
+    "weaponType":["ranged"],
+    "toHitModifier": ["-1"]
+  }
+}

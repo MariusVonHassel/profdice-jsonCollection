@@ -1,0 +1,16 @@
+{
+  "_id": "hoveringSentinel",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hoveringSentinelDescription",
+  "descriptionShort": "hoveringSentinelDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["12"]
+  }
+}

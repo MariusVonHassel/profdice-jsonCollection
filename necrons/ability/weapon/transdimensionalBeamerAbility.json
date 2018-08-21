@@ -1,0 +1,16 @@
+{
+  "_id": "transdimensionalBeamerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "transdimensionalBeamerAbilityDescription",
+  "descriptionShort": "transdimensionalBeamerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "additionalMortalWoundProbability": ["6"],
+    "additionalMortalWoundDamage":["1"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "chronometron",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "chronometronDescription",
+  "descriptionShort": "chronometronDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"15",
+  "abilityFactors": {
+      "abilityType": ["save","aura"],
+      "keywords":["infantry"],
+      "weaponType":["ranged"],
+      "invulnerableSave":["5"],
+      "auraRange":["3"]
+  }
+}

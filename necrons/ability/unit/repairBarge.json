@@ -1,0 +1,19 @@
+{
+  "_id": "repairBarge",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "repairBargeDescription",
+  "descriptionShort": "repairBargeDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"101"
+  },
+  "abilityFactors": {
+      "abilityType": ["restore","aura","embarked"],
+      "keywords":["dynasty","warriors"],
+      "reuseAbility":["reanimationProtocols"],
+      "auraRange": ["3"],
+      "resurrectionOrbTarget":["no"]
+  }
+}

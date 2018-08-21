@@ -1,0 +1,57 @@
+{
+  "_id": "triarchStalker",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "7",
+    "T": "6",
+    "W": "10",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["6","7","8","9","10"],
+    "M": "10",
+    "WS": "3",
+    "BS": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["3","4","5"],
+      "M": "8",
+      "WS": "4",
+      "BS": "4"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2"],
+      "M": "6",
+      "WS": "5",
+      "BS": "5"
+    }
+  },
+  "points": "117",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["heatRay"],
+      "replacement": ["particleShredder","twinHeavyGaussCannon"]
+    },
+    "melee": {
+      "default": ["massiveForelimbs"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","vehicle","triarchStalker"],
+  "abilities": ["livingMetal","quantumShielding","targetingRelay","explodes_6_6_D3"]
+}

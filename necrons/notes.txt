@@ -1,0 +1,1 @@
+//"meleeWeapon"  ,"rangedWeapons", "spells", "abilities", " forceAbilities", "attackerAbilities", "defenderAbilities""" Artefacts warlordtraits, banner

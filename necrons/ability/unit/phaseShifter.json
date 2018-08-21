@@ -1,0 +1,16 @@
+{
+  "_id": "phaseShifter",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "phaseShifterDescription",
+  "descriptionShort": "phaseShifterDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "lychguard",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "5",
+    "W": "2",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "19",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["warscythe"],
+      "replacement": ["hyperphaseSword"]
+    }
+  },
+  "wargear":["dispersionShield"],
+  "keywords": ["necrons","dynasty","infantry","lychguard"],
+  "abilities": ["reanimationProtocols","guardianProtocols"]
+}

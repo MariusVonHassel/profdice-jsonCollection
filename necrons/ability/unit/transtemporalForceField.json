@@ -1,0 +1,16 @@
+{
+  "_id": "transtemporalForceField",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "transtemporalForceFieldDescription",
+  "descriptionShort": "transtemporalForceFieldDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}

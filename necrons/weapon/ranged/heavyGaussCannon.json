@@ -1,0 +1,18 @@
+{
+  "_id": "heavyGaussCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"27",
+  "range":"36",
+  "weaponMode":"heavy",
+  "weaponModeCount":"1",
+  "S":"9",
+  "AP":"-3",
+  "D":"D9",
+  "weaponAbility":[]
+}

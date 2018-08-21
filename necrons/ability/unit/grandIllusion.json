@@ -1,0 +1,18 @@
+{
+  "_id": "grandIllusion",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "grandIllusionDescription",
+  "descriptionShort": "grandIllusionDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["reDeployment","self","assist"],
+    "deploymentDistancetoEnemy": ["12"],
+    "chargeAllowed":["no"],
+    "assistTargets":["D3"]
+  }
+}

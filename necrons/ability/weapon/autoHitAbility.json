@@ -1,0 +1,15 @@
+{
+  "_id": "autoHitAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "autoHitAbilityDescription",
+  "descriptionShort": "autoHitAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "autoHitModifier":["autoHit"]
+  }
+}

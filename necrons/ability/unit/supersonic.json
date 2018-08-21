@@ -1,0 +1,16 @@
+{
+  "_id": "supersonic",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "supersonicDescription",
+  "descriptionShort": "supersonicDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement","self"],
+    "advanceMove":["20"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "powersoftheCtan",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "powersoftheCtanDescription",
+  "descriptionShort": "powersoftheCtanDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["cTanPower"],
+    "abilityPhase":["movement"],
+    "cTanPowersKnown": ["2"],
+    "cTanPowersUses": ["1"]
+  }
+}

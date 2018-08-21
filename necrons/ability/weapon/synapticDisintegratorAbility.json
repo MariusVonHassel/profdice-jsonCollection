@@ -1,0 +1,19 @@
+{
+  "_id": "synapticDisintegratorAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "synapticDisintegratorAbilityDescription",
+  "descriptionShort": "synapticDisintegratorAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "snipeFactors":{
+      "keywords":["character"]
+    },
+    "additionalMortalWoundProbability": ["6"],
+    "additionalMortalWoundDamage":["1"]
+  }
+}

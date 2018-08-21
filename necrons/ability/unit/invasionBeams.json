@@ -1,0 +1,19 @@
+{
+  "_id": "invasionBeams",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "invasionBeamsDescription",
+  "descriptionShort": "invasionBeamsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","assist"],
+    "keywords":["dynasty","infantry"],
+    "deploymentDistance": ["3"],
+    "deploymentDistancetoEnemy":["1"],
+    "deployableUnitsperTurn":["1"]
+  }
+}

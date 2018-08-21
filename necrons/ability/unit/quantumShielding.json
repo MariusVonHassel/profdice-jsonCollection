@@ -1,0 +1,16 @@
+{
+  "_id": "quantumShielding",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "quantumShieldingDescription",
+  "descriptionShort": "quantumShieldingDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "quantumShieldingSave":["yes"]
+  }
+}

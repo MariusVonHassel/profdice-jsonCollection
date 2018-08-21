@@ -1,0 +1,21 @@
+{
+  "_id": "dispersionShield",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "dispersionShieldDescription",
+  "descriptionShort": "dispersionShieldDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "points":"12",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "invulnerableSave":["4"],
+      "linking":{
+        "keywords":"lychguard",
+        "linkWith":"dispersionShield"
+        }
+  }
+}

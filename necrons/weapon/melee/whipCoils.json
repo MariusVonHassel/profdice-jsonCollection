@@ -1,0 +1,17 @@
+{
+  "_id": "whipCoils",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"9",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-2",
+  "D":"2",
+  "weaponAbility":["whipCoilsAbility"]
+}

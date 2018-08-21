@@ -1,0 +1,17 @@
+{
+  "_id": "airborne",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "airborneDescription",
+  "descriptionShort": "airborneDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","offensive"],
+    "keywords": ["fly"],
+    "weaponType": ["melee"]
+  }
+}

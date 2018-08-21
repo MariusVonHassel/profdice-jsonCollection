@@ -1,0 +1,16 @@
+{
+  "_id": "hovering",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hoveringDescription",
+  "descriptionShort": "hoveringDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["measurement"],
+    "measureFrom": ["hull"]
+  }
+}

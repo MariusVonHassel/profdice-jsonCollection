@@ -1,0 +1,17 @@
+{
+  "_id": "livingMetal",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "livingMetalDescription",
+  "descriptionShort": "livingMetalDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"82"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","self"],
+    "abilityPhase":["playerTurnBeginning"],
+    "woundsRestored": ["1"]
+  }
+}

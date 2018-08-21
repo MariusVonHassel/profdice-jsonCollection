@@ -1,0 +1,49 @@
+{
+  "_id": "floatingFortress",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "floatingFortressDescription",
+  "descriptionShort": "floatingFortressDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["buff","self"],
+    "abilityPhase":["beforetheBattle"],
+    "buffCountChoose":["1"],
+    "buffCountRandom":["2"],
+    "buffAbilities":["D6"],
+    {
+      "buffCountAbility1":["cosmicTyrant"]{
+        "abilityType": ["psychicPower"],
+        "abilityPhase":["movementEnd"],
+        "cTanPowerUses":["2"]
+      },
+      "buffCountAbility2":["immunetoNaturalLaw"]{
+        "abilityType": ["save","self"],
+        "saveModifier":["1"]
+      },
+      "buffCountAbility3":["sentientNecrodermis"]{
+        "abilityType": ["restore","self"],
+        "abilityPhase":["playerTurnBeginning"],
+        "woundsRestored":["D3"]
+      },
+      "buffCountAbility4":["transdimensionalDisplacement"]{
+        "abilityType": ["movement","self"],
+        "advanceMove":["12"]
+      },
+      "buffCountAbility5":["entropicTouch"]{
+        "abilityType": ["offensive","self"],
+        "weaponType":["melee"],
+        "woundreollModifier":["all"]
+      },
+      "buffCountAbility6":["writhingWorldscape"]{
+        "abilityType": ["offensive","cover","aura"],
+        "auraRange":["12"],
+        "coverBonus":["no"]
+      },
+    }
+  }
+}

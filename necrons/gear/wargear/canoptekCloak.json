@@ -1,0 +1,27 @@
+{
+  "_id": "canoptekCloak",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "canoptekCloakDescription",
+  "descriptionShort": "canoptekCloakDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"5",
+  "abilityFactors": {
+    "abilityFactor1":{
+      "abilityType": ["movement","self"],
+      "gainKeywords":["fly"],
+      "gainMovementSkill":["10"]
+    },
+    "abilityFactor2":{
+      "abilityType": ["restore","aura"],
+      "keywords":["dynasty"],
+      "abilityPhase":["playerTurnBeginning"],
+      "abilityNeeded":["livingMetal"],
+      "woundsRestored": ["D3"]
+    }
+  }
+}

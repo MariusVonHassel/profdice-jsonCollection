@@ -1,0 +1,64 @@
+{
+  "_id": "ghostArk",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"101"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "6",
+    "BS": "3",
+    "S": "6",
+    "T": "6",
+    "W": "14",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["8","9","10","11","12","13","14"],
+    "M": "12",
+    "BS": "3",
+    "A": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["4","5","6","7"],
+      "M": "8",
+      "BS": "4",
+      "A": "D3"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3"],
+      "M": "4",
+      "BS": "5",
+      "A": "1"
+    }
+  },
+  "points": "160",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussFlayerArray","gaussFlayerArray"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","transport","fly","ghostArk"],
+  "abilities": ["livingMetal","quantumShielding","hovering","explodes_6_6_D3","repairBarge"],
+  "transport":{
+    "keywords":["dynasty","infantry"],
+    "keywordsAdditional":["warriors"],
+    "keywordsAdditionalReplacement":["character"],
+    "keywordsException":["destroyerLord"],
+    "transportcapacity":["10"]
+  }
+}

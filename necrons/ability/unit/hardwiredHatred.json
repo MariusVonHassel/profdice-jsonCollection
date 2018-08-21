@@ -1,0 +1,16 @@
+{
+  "_id": "hardwiredHatred",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hardwiredHatredDescription",
+  "descriptionShort": "hardwiredHatredDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","self"],
+    "hitrerollModifier": ["1"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "rodofCovenant_ranged",
+  "faction":"necrons",
+  "factionType":"weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"10",
+  "range":"12",
+  "weaponMode":"assault",
+  "weaponModeCount":"1",
+  "S":"5",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "linkWith":"rodofCovenant_melee"
+    }
+}

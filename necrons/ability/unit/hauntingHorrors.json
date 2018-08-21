@@ -1,0 +1,16 @@
+{
+  "_id": "hauntingHorrors",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hauntingHorrorsDescription",
+  "descriptionShort": "hauntingHorrorsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["9"]
+  }
+}

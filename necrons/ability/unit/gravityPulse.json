@@ -1,0 +1,18 @@
+{
+  "_id": "gravityPulse",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "gravityPulseDescription",
+  "descriptionShort": "gravityPulseDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","aura"],
+    "gravityPulseProbability": ["6"],
+    "gravityPulseRange": ["damagetable"],
+    "mortalWoundDamage": ["D3"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "transdimensionalBeamer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"14",
+  "range":"12",
+  "weaponMode":"heavy",
+  "weaponModeCount":"D3",
+  "S":"4",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":["transdimensionalBeamerAbility"]
+}

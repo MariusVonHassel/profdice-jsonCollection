@@ -1,0 +1,17 @@
+{
+  "_id": "warscythe",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"11",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"2",
+  "AP":"4",
+  "D":"2",
+  "weaponAbility":[]
+}

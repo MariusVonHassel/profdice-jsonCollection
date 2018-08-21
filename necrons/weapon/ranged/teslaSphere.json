@@ -1,0 +1,18 @@
+{
+  "_id": "teslaSphere",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"5",
+  "S":"7",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}

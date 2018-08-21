@@ -1,0 +1,38 @@
+{
+  "_id": "flayedOnes",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "6",
+    "S": "4",
+    "T": "4",
+    "W": "1",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "17",
+  "count": {
+    "default": "5",
+    "max": "20"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["flayerClaws"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","infantry","flayedOnes"],
+  "abilities": ["reanimationProtocols","fleshHunger","hauntingHorrors"]
+}

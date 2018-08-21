@@ -1,0 +1,16 @@
+{
+  "_id": "necrodermis",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "necrodermisDescription",
+  "descriptionShort": "necrodermisDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}

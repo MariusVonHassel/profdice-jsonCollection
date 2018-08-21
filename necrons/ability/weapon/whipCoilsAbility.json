@@ -1,0 +1,16 @@
+{
+  "_id": "whipCoilsAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "whipCoilsAbilityDescription",
+  "descriptionShort": "whipCoilsAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathtrigger"],
+    "fightBackwhenDead": ["Yes"]
+  }
+}

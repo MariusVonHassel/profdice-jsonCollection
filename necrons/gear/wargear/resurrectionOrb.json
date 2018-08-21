@@ -1,0 +1,20 @@
+{
+  "_id": "resurrectionOrb",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "resurrectionOrbDescription",
+  "descriptionShort": "resurrectionOrbDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"35",
+  "abilityFactors": {
+      "abilityType": ["restore","oneUseAura"],
+      "keywords":["infantry"],
+      "abilityNeeded":["reanimationProtocols"],
+      "reuseAbility":["reanimationProtocols"],
+      "auraRange": ["3"]
+  }
+}

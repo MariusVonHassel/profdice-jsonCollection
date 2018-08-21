@@ -1,0 +1,18 @@
+{
+  "_id": "vengeanceoftheEnchained",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "vengeanceoftheEnchainedDescription",
+  "descriptionShort": "vengeanceoftheEnchainedDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["4"],
+    "explosionRange": ["2D6"],
+    "mortalWoundDamage": ["D6"]
+  }
+}
