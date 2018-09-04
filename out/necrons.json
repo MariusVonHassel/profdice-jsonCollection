@@ -1,0 +1,3214 @@
+{
+  "_id": "annihilationBarge",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "6",
+    "BS": "3",
+    "S": "5",
+    "T": "6",
+    "W": "8",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "133",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussCannon","twinTeslaDestructor"],
+      "replacement": ["teslaCannon"],
+      "replacementFor":["gaussCannon"]
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","vehicle","fly","annihilationBarge"],
+  "abilities": ["livingMetal","quantumShielding","explodes_6_3_1"]
+}
+,
+{
+  "_id": "cTanShardoftheDeceiver",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "2",
+    "BS": "2",
+    "S": "7",
+    "T": "7",
+    "W": "8",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "225",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["starGodFists"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","cTanShards","character","monster","fly","cTanShardoftheDeceiver"],
+  "abilities": ["necrodermis","dread","grandIllusion","powersoftheCtan","realityUnravels","enslavedStarGod"]
+}
+,
+{
+  "_id": "cTanShardoftheNightbringer",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "2",
+    "BS": "2",
+    "S": "7",
+    "T": "7",
+    "W": "8",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "210",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gazeofDeath"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["scytheoftheNightbringer"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","cTanShards","character","monster","fly","cTanShardoftheNightbringer"],
+  "abilities": ["necrodermis","powersoftheCtan","realityUnravels","enslavedStarGod"]
+}
+,
+{
+  "_id": "canoptekScarabs",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "4",
+    "BS": "0",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "6"
+  },
+  "points": "13",
+  "count": {
+    "default": "3",
+    "max": "9"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["feederMandibles"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","canoptek","dynasty","swarm","fly","canoptekScarabs"],
+  "abilities": []
+}
+,
+{
+  "_id": "canoptekSpyders",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "stats": {
+    "M": "6",
+    "WS": "4",
+    "BS": "4",
+    "S": "6",
+    "T": "6",
+    "W": "4",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "65",
+  "count": {
+    "default": "1",
+    "max": "3"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": ["particleBeamer","particleBeamer"],
+      "noofModels":["anyModel"]
+    },
+    "melee": {
+      "default": ["automatonClaws"],
+      "replacement": []
+    }
+  },
+  "wargear":{
+    "wargearOption1":{
+      "wargearOption":["fabricatorClawArray"],
+      "noofModels":["anyModel"]
+    },
+    "wargearOption2":{
+      "wargearOption":["gloomPrism"],
+      "noofModels":["anyModel"]
+    }
+  },
+  "keywords": ["necrons","canoptek","dynasty","monster","fly","canoptekSpyders"],
+  "abilities": ["scarabHive"]
+}
+,
+{
+  "_id": "canoptekWraiths",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "3",
+    "BS": "3",
+    "S": "6",
+    "T": "5",
+    "W": "3",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "55",
+  "count": {
+    "default": "3",
+    "max": "6"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": ["particleCaster","transdimensionalBeamer"]
+    },
+    "melee": {
+      "default": ["viciousClaws"],
+      "replacement": ["whipCoils"]
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","canoptek","dynasty","beasts","canoptekWraiths"],
+  "abilities": ["wraithForm"]
+}
+,
+{
+  "_id": "cryptek",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "4",
+    "W": "4",
+    "A": "1",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "70",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["staffofLight_ranged"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["staffofLight_melee"],
+      "replacement": []
+    }
+  },
+  "wargear": ["chronometron","canoptekCloak"],
+  "keywords": ["necrons","dynasty","character","infantry","cryptek"],
+  "abilities": ["livingMetal","technomancer"]
+}
+,
+{
+  "_id": "deathmarks",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "4",
+    "W": "1",
+    "A": "1",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "19",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["synapticDisintegrator"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","infantry","deathmarks"],
+  "abilities": ["reanimationProtocols","huntersfromHyperspace","etherealInterception"]
+}
+,
+{
+  "_id": "destroyerLord",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "6",
+    "W": "6",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "110",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["staffofLight_ranged"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["staffofLight_melee"],
+      "replacement": ["hyperphaseSword","voidblade","warscythe"]
+    }
+  },
+  "wargear": ["phylactery","resurrectionOrb"],
+  "keywords": ["necrons","dynasty","character","infantry","fly","destroyerLord"],
+  "abilities": ["livingMetal","hardwiredHatred","unitedinHatred","phaseShifter"]
+}
+,
+{
+  "_id": "destroyers",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "5",
+    "W": "3",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "30",
+  "count": {
+    "default": "1",
+    "max": "6"
+  },
+  "modelReplacement":{
+    "factionType": "unit",
+    "keywords":["heavyDestroyers"],
+    "count": {
+      "default": "0",
+      "max": "1"
+    }
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussCannon"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","infantry","fly","destroyers"],
+  "abilities": ["reanimationProtocols","hardwiredHatred","repulsorPlatform"]
+}
+,
+{
+  "_id": "doomScythe",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "stats": {
+    "M": "20-60",
+    "WS": "6",
+    "BS": "3",
+    "S": "6",
+    "T": "6",
+    "W": "12",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["7","8","9","10","11","12"],
+    "M": "20-60",
+    "BS": "3",
+    "A": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["4","5","6"],
+      "M": "20-40",
+      "BS": "4",
+      "A": "W3"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3"],
+      "M": "20-25",
+      "BS": "5",
+      "A": "1"
+    }
+  },
+  "points": "205",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["deathRay", "teslaDestructor", "teslaDestructor"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","fly","doomScythe"],
+  "abilities": ["livingMetal","airborne","hardtoHit","supersonic","crashandBurn_6_6_D3"]
+}
+,
+{
+  "_id": "doomsdayArk",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "6",
+    "BS": "3",
+    "S": "6",
+    "T": "6",
+    "W": "14",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["8","9","10","11","12","13","14"],
+    "M": "12",
+    "BS": "3",
+    "A": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["4","5","6","7"],
+      "M": "8",
+      "BS": "4",
+      "A": "D3"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3"],
+      "M": "4",
+      "BS": "5",
+      "A": "1"
+    }
+  },
+  "points": "193",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["doomsdayCannon","gaussFlayerArray","gaussFlayerArray"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","fly","doomsdayArk"],
+  "abilities": ["livingMetal","quantumShielding","hovering","explodes_6_6_D3"]
+}
+,
+{
+  "_id": "flayedOnes",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "6",
+    "S": "4",
+    "T": "4",
+    "W": "1",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "17",
+  "count": {
+    "default": "5",
+    "max": "20"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["flayerClaws"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","infantry","flayedOnes"],
+  "abilities": ["reanimationProtocols","fleshHunger","hauntingHorrors"]
+}
+,
+{
+  "_id": "ghostArk",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"101"
+  },
+  "stats": {
+    "M": "12",
+    "WS": "6",
+    "BS": "3",
+    "S": "6",
+    "T": "6",
+    "W": "14",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["8","9","10","11","12","13","14"],
+    "M": "12",
+    "BS": "3",
+    "A": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["4","5","6","7"],
+      "M": "8",
+      "BS": "4",
+      "A": "D3"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3"],
+      "M": "4",
+      "BS": "5",
+      "A": "1"
+    }
+  },
+  "points": "160",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussFlayerArray","gaussFlayerArray"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","transport","fly","ghostArk"],
+  "abilities": ["livingMetal","quantumShielding","hovering","explodes_6_6_D3","repairBarge"],
+  "transport":{
+    "keywords":["dynasty","infantry"],
+    "keywordsAdditional":["warriors"],
+    "keywordsAdditionalReplacement":["character"],
+    "keywordsException":["destroyerLord"],
+    "transportcapacity":["10"]
+  }
+}
+,
+{
+  "_id": "heavyDestroyers",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "5",
+    "W": "3",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "30",
+  "count": {
+    "default": "1",
+    "max": "3"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["heavyGaussCannon"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","dynasty","infantry","fly","heavyDestroyers"],
+  "abilities": ["reanimationProtocols","hardwiredHatred","repulsorPlatform"]
+}
+,
+{
+  "_id": "immortals",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"90"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "4",
+    "W": "1",
+    "A": "1",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "8",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussBlaster"],
+      "replacement": ["teslaCarbine"]
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","infantry","immortals"],
+  "abilities": ["reanimationProtocols"]
+}
+,
+{
+  "_id": "lychguard",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "5",
+    "W": "2",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "19",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["warscythe"],
+      "replacement": ["hyperphaseSword"]
+    }
+  },
+  "wargear":["dispersionShield"],
+  "keywords": ["necrons","dynasty","infantry","lychguard"],
+  "abilities": ["reanimationProtocols","guardianProtocols"]
+}
+,
+{
+  "_id": "monolith",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "stats": {
+    "M": "6",
+    "WS": "6",
+    "BS": "3",
+    "S": "8",
+    "T": "8",
+    "W": "20",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3",
+    "portalofExileProbability":"4"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["11","12","13","14","15","16","17","18","19","20"],
+    "M": "6",
+    "BS": "3",
+    "portalofExileProbability":"4"
+    },
+    "damageTable2": {
+      "remainingW": ["6","7","8","9","10"],
+      "M": "5",
+      "BS": "4",
+      "portalofExileProbability":"5"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3","4","5"],
+      "M": "4",
+      "BS": "5",
+      "portalofExileProbability":"6"
+    }
+  },
+  "points": "381",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussFluxArc","gaussFluxArc","gaussFluxArc","gaussFluxArc","particleWhip"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","titanic","fly","monolith"],
+  "abilities": ["livingMetal","deathDescending","portalofExile","hovering","floatingFortress","eternityGate","explodes_6_6_D6"]
+}
+,
+{
+  "_id": "necronWarriors",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"90"
+  },
+  "stats": {
+    "M": "5",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "4",
+    "W": "1",
+    "A": "1",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "12",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussFlayer"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","infantry","warriors"],
+  "abilities": ["reanimationProtocols"]
+}
+,
+{
+  "_id": "nightScythe",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "stats": {
+    "M": "20-60",
+    "WS": "6",
+    "BS": "3",
+    "S": "6",
+    "T": "6",
+    "W": "12",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["7","8","9","10","11","12"],
+    "M": "20-60",
+    "BS": "3",
+    "A": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["4","5","6"],
+      "M": "20-40",
+      "BS": "4",
+      "A": "W3"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3"],
+      "M": "20-25",
+      "BS": "5",
+      "A": "1"
+    }
+  },
+  "points": "160",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["teslaDestructor", "teslaDestructor"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","fly","nightScythe"],
+  "abilities": ["livingMetal","airborne","hardtoHit","supersonic","crashandBurn_6_6_D3","invasionBeams"]
+}
+,
+{
+  "_id": "obelisk",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "6",
+    "BS": "3",
+    "S": "8",
+    "T": "8",
+    "W": "24",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3",
+    "gravityPulseRange":"18"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["13","14","15","16","17","18","19","20","21","22","23","24"],
+    "M": "8",
+    "BS": "3",
+    "gravityPulseRange":"18"
+    },
+    "damageTable2": {
+      "remainingW": ["7","8","9","10","11","12"],
+      "M": "6",
+      "BS": "4",
+    "gravityPulseRange":"12"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3","4","5","6"],
+      "M": "4",
+      "BS": "5",
+    "gravityPulseRange":"6"
+    }
+  },
+  "points": "426",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["teslaSphere","teslaSphere","teslaSphere","teslaSphere"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","dynasty","vehicle","titanic","fly","obelisk"],
+  "abilities": ["livingMetal","hoveringSentinel","gravityPulse","explodes_6_2D6_D6"]
+}
+,
+{
+  "_id": "tesseractVault",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "6",
+    "BS": "3",
+    "S": "8",
+    "T": "7",
+    "W": "28",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3",
+    "cTanPowersUses":"3"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28"],
+    "M": "8",
+    "BS": "3",
+    "cTanPowersUses":"3"
+    },
+    "damageTable2": {
+      "remainingW": ["7","8","9","10","11","12"],
+      "M": "6",
+      "BS": "4",
+    "cTanPowersUses":"2"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2","3","4","5","6"],
+      "M": "4",
+      "BS": "5",
+    "cTanPowersUses":"1"
+    }
+  },
+  "points": "426",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["teslaSphere","teslaSphere","teslaSphere","teslaSphere"],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","cTanShards","dynasty","vehicle","titanic","fly","tesseractVault"],
+  "abilities": ["livingMetal","powersoftheCtan4","transtemporalForceField","vengeanceoftheEnchained"]
+}
+,
+{
+  "_id": "tombBlades",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "stats": {
+    "M": "14",
+    "WS": "3",
+    "BS": "3",
+    "S": "4",
+    "T": "5",
+    "W": "2",
+    "A": "1",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "14",
+  "count": {
+    "default": "3",
+    "max": "9"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["gaussBlaster","gaussBlaster"],
+      "replacement":{
+        "replacement1":{
+          "weaponOption":["teslaCarbine","teslaCarbine"],
+          "noofModels":["anyModel"]
+        },
+        "replacement2":{
+          "weaponOption":["particleBeamer"],
+          "noofModels":["anyModel"]
+        }
+      }
+    },
+    "melee": {
+      "default": ["handWeapon"],
+      "replacement": []
+    }
+  },
+  "wargear":{
+    "wargearOption1":{
+      "wargearOption":["shieldvanes"],
+      "noofModels":["anyModel"]
+    },
+    "wargearOption2":{
+      "wargearOption":["nebuloscope","shadowloom"],
+      "noofModels":["anyModel"]
+    }
+  },
+  "keywords": ["necrons","dynasty","biker","fly","tombBlades"],
+  "abilities": ["reanimationProtocols","evasionEngrams"]
+}
+,
+{
+  "_id": "transcendentCtan",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"100"
+  },
+  "stats": {
+    "M": "8",
+    "WS": "2",
+    "BS": "2",
+    "S": "7",
+    "T": "7",
+    "W": "8",
+    "A": "4",
+    "Ld": "10",
+    "Sv": "4"
+  },
+  "points": "225",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": [],
+      "replacement": []
+    },
+    "melee": {
+      "default": ["cracklingTendrils"],
+      "replacement": []
+    }
+  },
+  "wargear": [],
+  "keywords": ["necrons","cTanShards","character","monster","fly","transcendentCtan"],
+  "abilities": ["necrodermis","powersoftheCtan","realityUnravels","enslavedStarGod","fracturedPersonality"]
+}
+,
+{
+  "_id": "triarchPraetorians",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "5",
+    "T": "5",
+    "W": "2",
+    "A": "2",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "points": "22",
+  "count": {
+    "default": "5",
+    "max": "10"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["rodofCovenant_ranged"],
+      "replacement": ["particleCaster"]
+    },
+    "melee": {
+      "default": ["rodofCovenant_melee"],
+      "replacement": ["voidblade"]
+    }
+  },
+  "keywords": ["necrons","infantry","fly","triarchPraetorians"],
+  "abilities": ["reanimationProtocols","aPurposeUnshakeable"]
+}
+,
+{
+  "_id": "triarchStalker",
+  "faction": "necrons",
+  "factionType": "unit",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "stats": {
+    "M": "10",
+    "WS": "3",
+    "BS": "3",
+    "S": "7",
+    "T": "6",
+    "W": "10",
+    "A": "3",
+    "Ld": "10",
+    "Sv": "3"
+  },
+  "damagetable": {
+    "damageTable1": {
+    "remainingW": ["6","7","8","9","10"],
+    "M": "10",
+    "WS": "3",
+    "BS": "3"
+    },
+    "damageTable2": {
+      "remainingW": ["3","4","5"],
+      "M": "8",
+      "WS": "4",
+      "BS": "4"
+    },
+    "damageTable3": {
+      "remainingW": ["1","2"],
+      "M": "6",
+      "WS": "5",
+      "BS": "5"
+    }
+  },
+  "points": "117",
+  "count": {
+    "default": "1",
+    "max": "1"
+  },
+  "weapon": {
+    "ranged": {
+      "default": ["heatRay"],
+      "replacement": ["particleShredder","twinHeavyGaussCannon"]
+    },
+    "melee": {
+      "default": ["massiveForelimbs"],
+      "replacement": []
+    }
+  },
+  "keywords": ["necrons","vehicle","triarchStalker"],
+  "abilities": ["livingMetal","quantumShielding","targetingRelay","explodes_6_6_D3"]
+}
+,
+{
+  "_id": "autoHitAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "autoHitAbilityDescription",
+  "descriptionShort": "autoHitAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "autoHitModifier":["autoHit"]
+  }
+}
+,
+{
+  "_id": "doomsdayArkhighPowerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "doomsdayArkhighPowerAbilityDescription",
+  "descriptionShort": "doomsdayArkhighPowerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement"],
+    "weaponModeprerequisite": ["stationary"]
+  }
+}
+,
+{
+  "_id": "feederMandiblesAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "feederMandiblesAbilityDescription",
+  "descriptionShort": "feederMandiblesAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "minToWoundProbability":["5"]
+  }
+}
+,
+{
+  "_id": "flayerClawsAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "flayerClawsAbilityDescription",
+  "descriptionShort": "flayerClawsAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "mortalWoundProbability": ["all"]
+  }
+}
+,
+{
+  "_id": "gazeofDeathAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "gazeofDeathAbilityDescription",
+  "descriptionShort": "gazeofDeathAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "keywords":["vehicle"],
+    "toWoundProbabilityVehicle": ["6"],
+    "toWoundProbabilityOther":["2"]
+  }
+}
+,
+{
+  "_id": "heatRayFocusedAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "heatRayFocusedAbilityDescription",
+  "descriptionShort": "heatRayFocusedAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "activationRange":["half"],
+    "noofDice": ["2"],
+    "discardDice":["lowest"]
+  }
+}
+,
+{
+  "_id": "scytheoftheNightbringerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "scytheoftheNightbringerAbilityDescription",
+  "descriptionShort": "scytheoftheNightbringerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "keywords":["vehicle"],
+    "S": ["7"],
+    "toWoundProbabilityOther":["2"]
+  }
+}
+,
+{
+  "_id": "synapticDisintegratorAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "synapticDisintegratorAbilityDescription",
+  "descriptionShort": "synapticDisintegratorAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "snipeFactors":{
+      "keywords":["character"]
+    },
+    "additionalMortalWoundProbability": ["6"],
+    "additionalMortalWoundDamage":["1"]
+  }
+}
+,
+{
+  "_id": "teslaWeaponAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "teslaWeaponAbilityDescription",
+  "descriptionShort": "teslaWeaponAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "additionalAttackHitProbability": ["6"],
+    "additionalAttackModifier":["2"]
+  }
+}
+,
+{
+  "_id": "transdimensionalBeamerAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "transdimensionalBeamerAbilityDescription",
+  "descriptionShort": "transdimensionalBeamerAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "abilityFactors": {
+    "additionalMortalWoundProbability": ["6"],
+    "additionalMortalWoundDamage":["1"]
+  }
+}
+,
+{
+  "_id": "voidBladeAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "voidBladeAbilityDescription",
+  "descriptionShort": "voidBladeAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "additionalAttackModifier":["1"]
+  }
+}
+,
+{
+  "_id": "whipCoilsAbility",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "weapon",
+  "description": "whipCoilsAbilityDescription",
+  "descriptionShort": "whipCoilsAbilityDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathtrigger"],
+    "fightBackwhenDead": ["Yes"]
+  }
+}
+,
+{
+  "_id": "aPurposeUnshakeable",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "aPurposeUnshakeableDescription",
+  "descriptionShort": "aPurposeUnshakeableDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["self","leadership"],
+    "moraleTest":["autoSuccess"]
+  }
+}
+,
+{
+  "_id": "airborne",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "airborneDescription",
+  "descriptionShort": "airborneDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","offensive"],
+    "keywords": ["fly"],
+    "weaponType": ["melee"]
+  }
+}
+,
+{
+  "_id": "crashandBurn_6_6_D3",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "crashandBurn_6_6_D3Description",
+  "descriptionShort": "crashandBurn_6_6_D3DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["6"],
+    "mortalWoundDamage": ["D3"]
+  }
+}
+,
+{
+  "_id": "deathDescending",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "deathDescendingDescription",
+  "descriptionShort": "deathDescendingDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["12"]
+  }
+}
+,
+{
+  "_id": "dread",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "dreadDescription",
+  "descriptionShort": "dreadDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","leadership","aura"],
+    "leadershipModifier":["-1"],
+    "auraRange":["12"]
+  }
+}
+,
+{
+  "_id": "enslavedStarGod",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "enslavedStarGodDescription",
+  "descriptionShort": "enslavedStarGodDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["warlord","self"],
+    "warlordTraitPossible":["no"]
+  }
+}
+,
+{
+  "_id": "eternityGate",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "eternityGateDescription",
+  "descriptionShort": "eternityGateDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","assist"],
+    "keywords":["dynasty","infantry"],
+    "deploymentDistance": ["3"],
+    "deploymentDistancetoEnemy":["1"],
+    "deployableUnitsperTurn":["1"]
+  }
+}
+,
+{
+  "_id": "etherealInterception",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "etherealInterceptionDescription",
+  "descriptionShort": "etherealInterceptionDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","reaction","self","offensive"],
+    "weaponType":["ranged"],
+    "deploymentDistancetoEnemy": ["9"],
+    "maxDeploymentDistancetoEnemy": ["12"]
+  }
+}
+,
+{
+  "_id": "evasionEngrams",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "evasionEngramsDescription",
+  "descriptionShort": "evasionEngramsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","self"],
+    "weaponType":["ranged"],
+    "toHitModifier": ["-1"]
+  }
+}
+,
+{
+  "_id": "explodes_6_2D6_D6",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "explodes_6_2D6_D6Description",
+  "descriptionShort": "explodes_2D6_6_D6DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["2D6"],
+    "mortalWoundDamage": ["D6"]
+  }
+}
+,
+{
+  "_id": "explodes_6_3_1",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "explodes_6_3_1Description",
+  "descriptionShort": "explodes_6_3_1DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"99"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["3"],
+    "mortalWoundDamage": ["1"]
+  }
+}
+,
+{
+  "_id": "explodes_6_6_D3",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "explodes_6_6_D3Description",
+  "descriptionShort": "explodes_6_6_D3DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["6"],
+    "mortalWoundDamage": ["D3"]
+  }
+}
+,
+{
+  "_id": "explodes_6_6_D6",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "explodes_6_6_D6Description",
+  "descriptionShort": "explodes_6_6_D6DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["6"],
+    "explosionRange": ["6"],
+    "mortalWoundDamage": ["D6"]
+  }
+}
+,
+{
+  "_id": "fleshHunger",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "fleshHungerDescription",
+  "descriptionShort": "fleshHungerDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","leadership"],
+    "leadershipModifier":["-1"]
+  }
+}
+,
+{
+  "_id": "floatingFortress",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "floatingFortressDescription",
+  "descriptionShort": "floatingFortressDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement","offensive"],
+    "weaponMode":["heavy"],
+    "heavyWeaponModifier": ["no"]
+  }
+}
+,
+{
+  "_id": "grandIllusion",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "grandIllusionDescription",
+  "descriptionShort": "grandIllusionDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["reDeployment","self","assist"],
+    "deploymentDistancetoEnemy": ["12"],
+    "chargeAllowed":["no"],
+    "assistTargets":["D3"]
+  }
+}
+,
+{
+  "_id": "gravityPulse",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "gravityPulseDescription",
+  "descriptionShort": "gravityPulseDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","aura"],
+    "gravityPulseProbability": ["6"],
+    "gravityPulseRange": ["damagetable"],
+    "mortalWoundDamage": ["D3"]
+  }
+}
+,
+{
+  "_id": "guardianProtocols",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "guardianProtocolsDescription",
+  "descriptionShort": "guardianProtocolsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","defensive","aura"],
+    "keywords": ["character"],
+    "woundInterceptionProbability":["2"],
+    "auraRange": ["3"]
+  }
+}
+,
+{
+  "_id": "hardtoHit",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hardtoHitDescription",
+  "descriptionShort": "hardtoHitDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["defensive","self"],
+    "weaponType":["ranged"],
+    "toHitModifier": ["-1"]
+  }
+}
+,
+{
+  "_id": "hardwiredHatred",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hardwiredHatredDescription",
+  "descriptionShort": "hardwiredHatredDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","self"],
+    "hitrerollModifier": ["1"]
+  }
+}
+,
+{
+  "_id": "hauntingHorrors",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hauntingHorrorsDescription",
+  "descriptionShort": "hauntingHorrorsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"92"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["9"]
+  }
+}
+,
+{
+  "_id": "hovering",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hoveringDescription",
+  "descriptionShort": "hoveringDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["measurement"],
+    "measureFrom": ["hull"]
+  }
+}
+,
+{
+  "_id": "hoveringSentinel",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "hoveringSentinelDescription",
+  "descriptionShort": "hoveringSentinelDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["12"]
+  }
+}
+,
+{
+  "_id": "huntersfromHyperspace",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "huntersfromHyperspaceDescription",
+  "descriptionShort": "huntersfromHyperspaceDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","self"],
+    "deploymentDistancetoEnemy": ["9"]
+  }
+}
+,
+{
+  "_id": "invasionBeams",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "invasionBeamsDescription",
+  "descriptionShort": "invasionBeamsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["deployment","assist"],
+    "keywords":["dynasty","infantry"],
+    "deploymentDistance": ["3"],
+    "deploymentDistancetoEnemy":["1"],
+    "deployableUnitsperTurn":["1"]
+  }
+}
+,
+{
+  "_id": "livingMetal",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "livingMetalDescription",
+  "descriptionShort": "livingMetalDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"82"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","self"],
+    "abilityPhase":["playerTurnBeginning"],
+    "woundsRestored": ["1"]
+  }
+}
+,
+{
+  "_id": "necrodermis",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "necrodermisDescription",
+  "descriptionShort": "necrodermisDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}
+,
+{
+  "_id": "phaseShifter",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "phaseShifterDescription",
+  "descriptionShort": "phaseShifterDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}
+,
+{
+  "_id": "portalofExile",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "portalofExileDescription",
+  "descriptionShort": "portalofExileDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"98"
+  },
+  "abilityFactors": {
+    "abilityType": ["reaction","offensive"],
+    "portalofExileProbability": ["damagetable"],
+    "mortalWoundDamage": ["D6"]
+  }
+}
+,
+{
+  "_id": "powersoftheCtan",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "powersoftheCtanDescription",
+  "descriptionShort": "powersoftheCtanDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["cTanPower"],
+    "abilityPhase":["movement"],
+    "cTanPowersKnown": ["2"],
+    "cTanPowersUses": ["1"]
+  }
+}
+,
+{
+  "_id": "powersoftheCtan4",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "powersoftheCtan4Description",
+  "descriptionShort": "powersoftheCtan4DescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"13"
+  },
+  "abilityFactors": {
+    "abilityType": ["cTanPower"],
+    "abilityPhase":["movement"],
+    "cTanPowersKnown": ["4"],
+    "cTanPowersUses": ["damagetable"]
+  }
+}
+,
+{
+  "_id": "quantumShielding",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "quantumShieldingDescription",
+  "descriptionShort": "quantumShieldingDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "quantumShieldingSave":["yes"]
+  }
+}
+,
+{
+  "_id": "realityUnravels",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "realityUnravelsDescription",
+  "descriptionShort": "realityUnravelsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"94"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["4"],
+    "explosionRange": ["3"],
+    "mortalWoundDamage": ["D3"]
+  }
+}
+,
+{
+  "_id": "reanimationProtocols",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "reanimationProtocolsDescription",
+  "descriptionShort": "reanimationProtocolsDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"82"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","self"],
+    "reanimationProtocolsProbability":["5"]
+  }
+}
+,
+{
+  "_id": "repairBarge",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "repairBargeDescription",
+  "descriptionShort": "repairBargeDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"101"
+  },
+  "abilityFactors": {
+      "abilityType": ["restore","aura","embarked"],
+      "keywords":["dynasty","warriors"],
+      "reuseAbility":["reanimationProtocols"],
+      "auraRange": ["3"],
+      "resurrectionOrbTarget":["no"]
+  }
+}
+,
+{
+  "_id": "repulsorPlatform",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "repulsorPlatformDescription",
+  "descriptionShort": "repulsorPlatformDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement","offensive"],
+    "weaponMode":["heavy"],
+    "heavyWeaponModifier": ["no"]
+  }
+}
+,
+{
+  "_id": "scarabHive",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "scarabHiveDescription",
+  "descriptionShort": "scarabHiveDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","aura"],
+    "abilityPhase":["playerTurnBeginning"],
+    "keywords":["dynasty","canoptekScarabs"],
+    "woundsRestoredProbability": ["2"],
+    "woundsRestored":["lostModel"],
+    "mortalWoundProbability":["6"],
+    "mortalWoundDamage":["1"],
+    "auraRange":["6"]
+  }
+}
+,
+{
+  "_id": "supersonic",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "supersonicDescription",
+  "descriptionShort": "supersonicDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"102"
+  },
+  "abilityFactors": {
+    "abilityType": ["movement","self"],
+    "advanceMove":["20"]
+  }
+}
+,
+{
+  "_id": "targetingRelay",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "targetingRelayDescription",
+  "descriptionShort": "targetingRelayDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"93"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","assist"],
+    "weaponType":["ranged"],
+    "hitrerollModifier":["1"]
+  }
+}
+,
+{
+  "_id": "technomancer",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "technomancerDescription",
+  "descriptionShort": "technomancerDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["restore","aura"],
+    "keywords":["dynasty"],
+    "abilityNeeded":["reanimationProtocols"],
+    "reanimationProtocolsModifier":["1"],
+    "auraRange":["3"]
+  }
+}
+,
+{
+  "_id": "transtemporalForceField",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "transtemporalForceFieldDescription",
+  "descriptionShort": "transtemporalForceFieldDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self"],
+    "invulnerableSave":["4"]
+  }
+}
+,
+{
+  "_id": "unitedinHatred",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "unitedinHatredDescription",
+  "descriptionShort": "unitedinHatredDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"89"
+  },
+  "abilityFactors": {
+    "abilityType": ["offensive","aura"],
+    "keywords":["destroyerLord","destroyers","heavyDestroyers"],
+    "weaponType":["ranged"],
+    "woundreollModifier":["1"],
+    "auraRange":["6"]
+  }
+}
+,
+{
+  "_id": "vengeanceoftheEnchained",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "vengeanceoftheEnchainedDescription",
+  "descriptionShort": "vengeanceoftheEnchainedDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"103"
+  },
+  "abilityFactors": {
+    "abilityType": ["deathTrigger"],
+    "explosionProbability": ["4"],
+    "explosionRange": ["2D6"],
+    "mortalWoundDamage": ["D6"]
+  }
+}
+,
+{
+  "_id": "wraithForm",
+  "faction": "necrons",
+  "factionType": "ability",
+  "abilityType": "unit",
+  "description": "wraithFormDescription",
+  "descriptionShort": "wraithFormDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"95"
+  },
+  "abilityFactors": {
+    "abilityType": ["save","self","movement","fallBack"],
+    "invulnerableSave":["3"],
+    "movementAbility":["moveThroughTerrainandModels"],
+    "fallBackAbility":["shootandCharge"]
+  }
+}
+,
+{
+  "_id": "canoptekCloak",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "canoptekCloakDescription",
+  "descriptionShort": "canoptekCloakDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"5",
+  "abilityFactors": {
+    "abilityFactor1":{
+      "abilityType": ["movement","self"],
+      "gainKeywords":["fly"],
+      "gainMovementSkill":["10"]
+    },
+    "abilityFactor2":{
+      "abilityType": ["restore","aura"],
+      "keywords":["dynasty"],
+      "abilityPhase":["playerTurnBeginning"],
+      "abilityNeeded":["livingMetal"],
+      "woundsRestored": ["D3"]
+    }
+  }
+}
+,
+{
+  "_id": "chronometron",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "chronometronDescription",
+  "descriptionShort": "chronometronDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"15",
+  "abilityFactors": {
+      "abilityType": ["save","aura"],
+      "keywords":["infantry"],
+      "weaponType":["ranged"],
+      "invulnerableSave":["5"],
+      "auraRange":["3"]
+  }
+}
+,
+{
+  "_id": "dispersionShield",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "dispersionShieldDescription",
+  "descriptionShort": "dispersionShieldDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"91"
+  },
+  "points":"12",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "invulnerableSave":["4"],
+      "linking":{
+        "keywords":"lychguard",
+        "linkWith":"dispersionShield"
+        }
+  }
+}
+,
+{
+  "_id": "fabricatorClawArray",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "fabricatorClawArrayDescription",
+  "descriptionShort": "fabricatorClawArrayDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "points":"5",
+  "abilityFactors": {
+      "abilityType": ["restore","assist"],
+      "keywords":["dynasty","vehicle"],
+      "abilityPhase":["movementEnd"],
+      "woundsRestored":["D3"],
+      "auraRange": ["1"]
+  }
+}
+,
+{
+  "_id": "gloomPrism",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "gloomPrismDescription",
+  "descriptionShort": "gloomPrismDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"97"
+  },
+  "points":"5",
+  "abilityFactors": {
+      "abilityType": ["reaction","psychicPower"],
+      "keywords":["psyker"],
+      "abilityPhase":["psychicPhase"],
+      "denyPsychicPowerCount":["1"]
+  }
+}
+,
+{
+  "_id": "nebuloscope",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "nebuloscopeDescription",
+  "descriptionShort": "nebuloscopeDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"2",
+  "abilityFactors": {
+      "abilityType": ["offensive","cover"],
+      "coverBonus": ["no"]
+  }
+}
+,
+{
+  "_id": "phylactery",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "phylacteryDescription",
+  "descriptionShort": "phylacteryDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"10",
+  "abilityFactors": {
+      "abilityType": ["restore","self"],
+      "abilityNeeded":["livingMetal"],
+      "abilityPhase":["playerTurnBeginning"],
+      "woundsRestored": ["D3"]
+  }
+}
+,
+{
+  "_id": "resurrectionOrb",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "resurrectionOrbDescription",
+  "descriptionShort": "resurrectionOrbDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"35",
+  "abilityFactors": {
+      "abilityType": ["restore","oneUseAura"],
+      "keywords":["infantry"],
+      "abilityNeeded":["reanimationProtocols"],
+      "reuseAbility":["reanimationProtocols"],
+      "auraRange": ["3"]
+  }
+}
+,
+{
+  "_id": "shadowloom",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "shadowloomDescription",
+  "descriptionShort": "shadowloomDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"5",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "invulnerableSave": ["5"]
+  }
+}
+,
+{
+  "_id": "shieldvanes",
+  "faction": "necrons",
+  "factionType": "gear",
+  "gearType": "wargear",
+  "description": "shieldvanesDescription",
+  "descriptionShort": "shieldvanesDescriptionShort",
+  "source":{
+    "book":"codexNecrons",
+    "page":"96"
+  },
+  "points":"3",
+  "abilityFactors": {
+      "abilityType": ["save","self"],
+      "Sv": ["3"]
+  }
+}
+,
+{
+  "_id": "automatonClaws",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "cracklingTendrils",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"4",
+  "D":"D6",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "feederMandibles",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["feederMandiblesAbility"]
+}
+,
+{
+  "_id": "flayerClaws",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["flayerClawsAbility"]
+}
+,
+{
+  "_id": "handWeapon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "hyperphaseSword",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"3",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"+1",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "keywords":"lychguard",
+    "linkWith":"dispersionShield"
+    }
+}
+,
+{
+  "_id": "massiveForelimbs",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-1",
+  "D":"D3",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "rodofCovenant_melee",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "linkWith":"rodofCovenant_ranged"
+    }
+}
+,
+{
+  "_id": "scytheoftheNightbringer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"special",
+  "AP":"-4",
+  "D":"D6",
+  "weaponAbility":["scytheoftheNightbringerAbility"]
+}
+,
+{
+  "_id": "staffofLight_melee",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"10",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-2",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "linkWith":"staffofLight_ranged"
+    }
+}
+,
+{
+  "_id": "starGodFists",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"4",
+  "D":"3",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "viciousClaws",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"0",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-2",
+  "D":"2",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "voidblade",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"6",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"3",
+  "D":"1",
+  "weaponAbility":["voidBladeAbility"],
+  "linking":{
+    "keywords":"triarchPraetorians",
+    "linkWith":"particleCaster"
+    }
+}
+,
+{
+  "_id": "warscythe",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"11",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"2",
+  "AP":"4",
+  "D":"2",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "whipCoils",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"melee",
+  "source":{
+    "book":"codexNecrons",
+    "page":"105"
+  },
+  "points":"9",
+  "range":"melee",
+  "weaponMode":"melee",
+  "S":"user",
+  "AP":"-2",
+  "D":"2",
+  "weaponAbility":["whipCoilsAbility"]
+}
+,
+{
+  "_id": "deathRay",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"D3",
+  "S":"10",
+  "AP":"-4",
+  "D":"D6",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "doomsdayCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType": "ranged",
+  "source": {
+    "book": "codexNecrons",
+    "page": "104"
+  },
+  "points": "0",
+  "weaponProfiles": {
+    "weaponProfile1": {
+      "weaponProfileName": "lowPower",
+      "range": "36",
+      "weaponMode": "heavy",
+      "weaponModeCount": "D6",
+      "S": "8",
+      "AP": "-2",
+      "D": "D3",
+      "weaponAbility": []
+    },
+    "weaponProfile2": {
+      "weaponProfileName": "highPower",
+      "range": "72",
+      "weaponMode": "heavy",
+      "weaponModeCount": "D6",
+      "S": "10",
+      "AP": "-5",
+      "D": "D6",
+      "weaponAbility": [
+        "doomsdayArkhighPowerAbility"
+      ]
+    }
+  }
+}
+,
+{
+  "_id": "gaussBlaster",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"9",
+  "range":"24",
+  "weaponMode":"rapidFire",
+  "weaponModeCount":"1",
+  "S":"5",
+  "AP":"-2",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "gaussCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"20",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"3",
+  "S":"6",
+  "AP":"-3",
+  "D":"D3",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "gaussFlayer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"rapidFire",
+  "weaponModeCount":"1",
+  "S":"4",
+  "AP":"-1",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "gaussFlayerArray",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"rapidFire",
+  "weaponModeCount":"5",
+  "S":"4",
+  "AP":"-1",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "gaussFluxArc",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"3",
+  "S":"5",
+  "AP":"-2",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "gazeofDeath",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"12",
+  "weaponMode":"assault",
+  "weaponModeCount":"D6",
+  "S":"special",
+  "AP":"-4",
+  "D":"D3",
+  "weaponAbility":["gazeofDeathAbility"]
+}
+,
+{
+  "_id": "heatRay",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType": "ranged",
+  "source": {
+    "book": "codexNecrons",
+    "page": "104"
+  },
+  "points": "54",
+  "weaponProfiles": {
+    "weaponProfile1": {
+      "weaponProfileName": "dispersed",
+      "range": "8",
+      "weaponMode": "heavy",
+      "weaponModeCount": "2D6",
+      "S": "5",
+      "AP": "-1",
+      "D": "1",
+      "weaponAbility": [
+        "autoHitAbility"
+      ]
+    },
+    "weaponProfile2": {
+      "weaponProfileName": "focused",
+      "range": "24",
+      "weaponMode": "heavy",
+      "weaponModeCount": "2",
+      "S": "8",
+      "AP": "-4",
+      "D": "D6",
+      "weaponAbility": [
+        "heatRayFocusedAbility"
+      ]
+    }
+  }
+}
+,
+{
+  "_id": "heavyGaussCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"27",
+  "range":"36",
+  "weaponMode":"heavy",
+  "weaponModeCount":"1",
+  "S":"9",
+  "AP":"-3",
+  "D":"D9",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "particleBeamer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"10",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"3",
+  "S":"6",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "particleCaster",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"4",
+  "range":"12",
+  "weaponMode":"pistol",
+  "weaponModeCount":"1",
+  "S":"6",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "keywords":"triarchPraetorians",
+    "linkWith":"voidblade"
+    }
+}
+,
+{
+  "_id": "particleShredder",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"41",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"6",
+  "S":"7",
+  "AP":"-1",
+  "D":"D3",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "particleWhip",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"heavy",
+  "weaponModeCount":"6",
+  "S":"8",
+  "AP":"-2",
+  "D":"D3",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "rodofCovenant_ranged",
+  "faction":"necrons",
+  "factionType":"weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"10",
+  "range":"12",
+  "weaponMode":"assault",
+  "weaponModeCount":"1",
+  "S":"5",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "linkWith":"rodofCovenant_melee"
+    }
+}
+,
+{
+  "_id": "staffofLight_ranged",
+  "faction":"necrons",
+  "factionType":"weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"12",
+  "weaponMode":"assault",
+  "weaponModeCount":"3",
+  "S":"5",
+  "AP":"-2",
+  "D":"1",
+  "weaponAbility":[],
+  "linking":{
+    "linkWith":"staffofLight_melee"
+    }
+}
+,
+{
+  "_id": "synapticDisintegrator",
+  "faction":"necrons",
+  "factionType":"weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"rapidFire",
+  "weaponModeCount":"1",
+  "S":"4",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["synapticDisintegratorAbility"]
+}
+,
+{
+  "_id": "teslaCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"13",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"3",
+  "S":"6",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}
+,
+{
+  "_id": "teslaCarbine",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"9",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"2",
+  "S":"5",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}
+,
+{
+  "_id": "teslaDestructor",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"4",
+  "S":"7",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}
+,
+{
+  "_id": "teslaSphere",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"5",
+  "S":"7",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}
+,
+{
+  "_id": "transdimensionalBeamer",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"14",
+  "range":"12",
+  "weaponMode":"heavy",
+  "weaponModeCount":"D3",
+  "S":"4",
+  "AP":"-3",
+  "D":"1",
+  "weaponAbility":["transdimensionalBeamerAbility"]
+}
+,
+{
+  "_id": "twinHeavyGaussCannon",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"54",
+  "range":"36",
+  "weaponMode":"heavy",
+  "weaponModeCount":"2",
+  "S":"9",
+  "AP":"-4",
+  "D":"D6",
+  "weaponAbility":[]
+}
+,
+{
+  "_id": "twinTeslaDestructor",
+  "faction": "necrons",
+  "factionType": "weapon",
+  "weaponType":"ranged",
+  "source":{
+    "book":"codexNecrons",
+    "page":"104"
+  },
+  "points":"0",
+  "range":"24",
+  "weaponMode":"assault",
+  "weaponModeCount":"8",
+  "S":"7",
+  "AP":"0",
+  "D":"1",
+  "weaponAbility":["teslaWeaponAbility"]
+}

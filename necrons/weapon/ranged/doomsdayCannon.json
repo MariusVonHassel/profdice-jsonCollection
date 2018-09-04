@@ -2,32 +2,34 @@
   "_id": "doomsdayCannon",
   "faction": "necrons",
   "factionType": "weapon",
-  "weaponType":"ranged",
-  "source":{
-    "book":"codexNecrons",
-    "page":"104"
+  "weaponType": "ranged",
+  "source": {
+    "book": "codexNecrons",
+    "page": "104"
   },
-  "points":"0",
-  "weaponProfiles":{
-    "weaponProfile1":{
-      "weaponProfileName":"lowPower",
-      "range":"36",
-      "weaponMode":"heavy",
-      "weaponModeCount":"D6",
-      "S":"8",
-      "AP":"-2",
-      "D":"D3",
-      "weaponAbility":[]
+  "points": "0",
+  "weaponProfiles": {
+    "weaponProfile1": {
+      "weaponProfileName": "lowPower",
+      "range": "36",
+      "weaponMode": "heavy",
+      "weaponModeCount": "D6",
+      "S": "8",
+      "AP": "-2",
+      "D": "D3",
+      "weaponAbility": []
     },
-    "weaponProfile2":{
-      "weaponProfileName":"highPower",
-      "range":"72",
-      "weaponMode":"heavy",
-      "weaponModeCount":"D6",
-      "S":"10",
-      "AP":"-5",
-      "D":"D6",
-      "weaponAbility":["doomsdayArkhighPowerAbility"]
+    "weaponProfile2": {
+      "weaponProfileName": "highPower",
+      "range": "72",
+      "weaponMode": "heavy",
+      "weaponModeCount": "D6",
+      "S": "10",
+      "AP": "-5",
+      "D": "D6",
+      "weaponAbility": [
+        "doomsdayArkhighPowerAbility"
+      ]
+    }
   }
-
 }
